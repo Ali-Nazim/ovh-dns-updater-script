@@ -12,7 +12,6 @@ This script (`update_dns.py`) automatically updates the A records of your OVH do
 
 - Python 3.x
 - [ovh](https://pypi.org/project/ovh/)
-- [requests](https://pypi.org/project/requests/)
 - [python-dotenv](https://pypi.org/project/python-dotenv/)
 
 Install dependencies with:
