@@ -101,5 +101,6 @@ To use a different domain, change the `DOMAIN_NAME` variable in `update_dns.py`.
 ## Notes
 
 - Make sure your OVH API credentials have sufficient permissions to read and update DNS records.
+- When creating your OVH API Key, ensure you grant **GET**, **POST**, and **PUT** permissions for `/domain/zone*` to allow the script to manage DNS records and refresh the zone.
 - You can schedule this script to run periodically using cron for automated updates.
 
